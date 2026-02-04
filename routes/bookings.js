@@ -259,10 +259,9 @@ router.get('/stats/dashboard', authMiddleware, adminMiddleware, async (req, res)
     const confirmedBookings = await Booking.countDocuments({ status: 'confirmed' });
     const completedBookings = await Booking.countDocuments({ status: 'completed' });
 
-    // Calculate total staff (users with admin, owner, or receptionist roles)
-    const totalStaff = await User.countDocuments({ 
-      role: { $in: ['admin', 'owner', 'receptionist'] } 
-    });
+    // Calculate total staff from Barber profiles (visible team members)
+    const Barber = require('../models/Barber');
+    const totalStaff = await Barber.countDocuments();
 
     // Calculate total revenue from completed bookings
     const completedBookingsData = await Booking.find({ status: 'completed' });
