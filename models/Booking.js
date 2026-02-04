@@ -142,7 +142,7 @@ const bookingSchema = new mongoose.Schema({
   // Payment fields - Enhanced for Stripe
   paymentType: {
     type: String,
-    enum: ['prepaid', 'postpaid', 'card_on_file'],
+    enum: ['prepaid', 'postpaid', 'card_on_file', 'pay_at_venue'],
     default: 'card_on_file',
   },
   paymentStatus: {
