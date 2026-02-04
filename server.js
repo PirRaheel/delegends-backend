@@ -11,9 +11,12 @@ const app = express();
 const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:3000',
-  'https://barber-three-psi.vercel.app',
-  'https://treatwell-sage.vercel.app'
-];
+  'http://localhost:5174',
+  'https://barber-main.vercel.app',
+  'https://treatwell-main.vercel.app',
+  process.env.FRONTEND_URL,
+  process.env.ADMIN_URL
+].filter(Boolean);
 
 app.use(cors({
   origin: function(origin, callback) {
