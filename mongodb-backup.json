@@ -1,0 +1,2455 @@
+{
+  "users": [
+    {
+      "_id": "6981df00a08ed227fc1404f1",
+      "name": "Admin User",
+      "email": "admin@salon.com",
+      "password": "$2b$10$4IKVF.VeuSEQ/3NvEJJSeeZ8lR8/sA4oysI8ZkpfB49inRGPReJ4S",
+      "role": "admin",
+      "phone": "+92-300-1111111",
+      "gender": "Other / Prefers not to disclose",
+      "marketingConsent": false,
+      "prepaymentRequired": false,
+      "createdAt": "2026-02-03T11:41:52.045Z",
+      "__v": 0
+    },
+    {
+      "_id": "6981df00a08ed227fc1404f4",
+      "name": "Ali Receptionist",
+      "email": "receptionist@salon.com",
+      "password": "$2b$10$GQ0Wfl00A/SCYZqKTtlV2.rVAU1V7AQmugDWyyk9Xy3Y46wMU1u7.",
+      "role": "receptionist",
+      "phone": "+92-300-2222222",
+      "gender": "Other / Prefers not to disclose",
+      "marketingConsent": false,
+      "prepaymentRequired": false,
+      "createdAt": "2026-02-03T11:41:52.682Z",
+      "__v": 0
+    },
+    {
+      "_id": "6981df01a08ed227fc1404f8",
+      "name": "Owner Sahab",
+      "email": "owner@salon.com",
+      "password": "$2b$10$jwesHqQWlYpQzoj.nGkgM.s6H8drItAkd9peWofkUqR.qiGb6U3/m",
+      "role": "owner",
+      "phone": "+92-300-3333333",
+      "gender": "Other / Prefers not to disclose",
+      "marketingConsent": false,
+      "prepaymentRequired": false,
+      "createdAt": "2026-02-03T11:41:53.285Z",
+      "__v": 0
+    },
+    {
+      "_id": "6983132708f40a40068cac65",
+      "name": "sarfaz",
+      "email": "sarfraz@gmail.com",
+      "password": "$2b$10$lwOtro5xoRM9BhwQE.J2XeZr9/QZPB0P.KL5DyCtUrxkOKtvTLE7S",
+      "role": "customer",
+      "phone": "0213254620",
+      "gender": "Other / Prefers not to disclose",
+      "marketingConsent": false,
+      "prepaymentRequired": false,
+      "createdAt": "2026-02-04T09:36:39.661Z",
+      "__v": 0
+    },
+    {
+      "_id": "6983136608f40a40068cac69",
+      "name": "Sarfraz Ahmed1",
+      "email": "sarfraz1@gmail.com",
+      "password": "$2b$10$8F.iH644tIJeT2/CXgclzuqF8.9.3eOHhVZb1KK9/GQgKsNxJCtnu",
+      "role": "customer",
+      "phone": "03123456789",
+      "gender": "Other / Prefers not to disclose",
+      "marketingConsent": false,
+      "prepaymentRequired": false,
+      "createdAt": "2026-02-04T09:37:42.266Z",
+      "__v": 0
+    },
+    {
+      "_id": "698313bf11e253560c7afaa6",
+      "name": "Sarfraz@123",
+      "email": "sarfraz123@gmail.com",
+      "password": "$2b$10$KN7jfwYtRvaAOnekgUhY1uGwinMzdBTuu4DmafUr2LLOcSicCbjz2",
+      "role": "customer",
+      "phone": "",
+      "gender": "Other / Prefers not to disclose",
+      "marketingConsent": false,
+      "prepaymentRequired": false,
+      "createdAt": "2026-02-04T09:39:11.289Z",
+      "__v": 0
+    },
+    {
+      "_id": "69835a94b29ef409a51a0e8b",
+      "name": "Test Employee",
+      "email": "test@employee.com",
+      "password": "$2b$10$CXpSRITPkzcE5mvkYhNefuKEEb91ICD69qfbWeUS3yl/3m1ZAOoVu",
+      "role": "receptionist",
+      "phone": "+370123456",
+      "gender": "Other / Prefers not to disclose",
+      "marketingConsent": false,
+      "prepaymentRequired": false,
+      "createdAt": "2026-02-04T14:41:24.150Z",
+      "__v": 0
+    },
+    {
+      "_id": "69835bece74435d5c2b1fae0",
+      "name": "Yeison",
+      "email": "demo@gmail.com",
+      "password": "$2b$10$ePwNj30ZwCm2f56q9KXEe.9tHDC3dm92UQzmovdQ0o9mWx7Q9Wn0y",
+      "role": "receptionist",
+      "phone": "",
+      "gender": "Other / Prefers not to disclose",
+      "marketingConsent": false,
+      "prepaymentRequired": false,
+      "createdAt": "2026-02-04T14:47:08.911Z",
+      "__v": 0
+    },
+    {
+      "_id": "69835de4fe96dc0c9427c0cb",
+      "name": "Yeison",
+      "email": "yeison@gmail.com",
+      "password": "$2b$10$b0sOWQpQtwDydy71ya73vuA3re8MQpOpbpnCHin3K2b7y.6//MuSy",
+      "role": "receptionist",
+      "phone": "+132546987",
+      "gender": "Other / Prefers not to disclose",
+      "marketingConsent": false,
+      "prepaymentRequired": false,
+      "createdAt": "2026-02-04T14:55:32.224Z",
+      "__v": 0
+    },
+    {
+      "_id": "69835e58b6bf558b18b8929c",
+      "name": "Estebann",
+      "email": "estebann@gmail.com",
+      "password": "$2b$10$1XIE3HrEucuqq2H9jewSYeyDeo9UIXNJVPcnQcbHK7BK5RdouEBSa",
+      "role": "receptionist",
+      "phone": "+123546987",
+      "gender": "Other / Prefers not to disclose",
+      "marketingConsent": false,
+      "prepaymentRequired": false,
+      "createdAt": "2026-02-04T14:57:28.536Z",
+      "__v": 0
+    },
+    {
+      "_id": "69835ee9b6bf558b18b892b8",
+      "name": "Steven",
+      "email": "steven@gmail.com",
+      "password": "$2b$10$SdRQtiSDwaaT6j1y54KsW.epcV0NAirv8DpvOqNTenoi8PxuvWQY2",
+      "role": "receptionist",
+      "phone": "+123456789",
+      "gender": "Other / Prefers not to disclose",
+      "marketingConsent": false,
+      "prepaymentRequired": false,
+      "createdAt": "2026-02-04T14:59:53.780Z",
+      "__v": 0
+    },
+    {
+      "_id": "69835f6fb6bf558b18b892d3",
+      "name": "Brayan",
+      "email": "brayan@gmail.com",
+      "password": "$2b$10$K.Bpa6nrr2F/MYx.pLbJg.MzWiWGSgng7Iacamd7NCOUhexHo8eEO",
+      "role": "receptionist",
+      "phone": "+123456789",
+      "gender": "Other / Prefers not to disclose",
+      "marketingConsent": false,
+      "prepaymentRequired": false,
+      "createdAt": "2026-02-04T15:02:07.649Z",
+      "__v": 0
+    },
+    {
+      "_id": "69835fabb6bf558b18b892e2",
+      "name": "Felipe Luiz",
+      "email": "felipeluiz@gmail.com",
+      "password": "$2b$10$Lv6rd7ke.axt04N.PVEpQuDT/zbpxxpX5Eh4YTG67aod1SJBZmd7.",
+      "role": "receptionist",
+      "phone": "",
+      "gender": "Other / Prefers not to disclose",
+      "marketingConsent": false,
+      "prepaymentRequired": false,
+      "createdAt": "2026-02-04T15:03:07.401Z",
+      "__v": 0
+    },
+    {
+      "_id": "69835fddb6bf558b18b892ef",
+      "name": "Julian",
+      "email": "julian@gmail.com",
+      "password": "$2b$10$4Kp1R2UO10oiXO5z83ZeYuf2mzrxz/BmJm3y97FTY/zOv3394L3Mm",
+      "role": "receptionist",
+      "phone": "",
+      "gender": "Other / Prefers not to disclose",
+      "marketingConsent": false,
+      "prepaymentRequired": false,
+      "createdAt": "2026-02-04T15:03:57.276Z",
+      "__v": 0
+    },
+    {
+      "_id": "6983601134626ecd0abe18cf",
+      "name": "Dilann",
+      "email": "dilann@gmail.com",
+      "password": "$2b$10$sJAk8FQAPbhT4OWr.PfQEOYyWSdkhBVLc5TmqlsKCPg.5fOTZ6FXa",
+      "role": "receptionist",
+      "phone": "+123456789",
+      "gender": "Other / Prefers not to disclose",
+      "marketingConsent": false,
+      "prepaymentRequired": false,
+      "createdAt": "2026-02-04T15:04:49.646Z",
+      "__v": 0
+    },
+    {
+      "_id": "6983608034626ecd0abe18e6",
+      "name": "Hakki",
+      "email": "hakki@gmail.com",
+      "password": "$2b$10$dLn5mgKrgZ2KrdN4tEXQXOUaUw2K1PbU1BcQWsTLiGNkBpbDeyHwy",
+      "role": "receptionist",
+      "phone": "+123456789",
+      "gender": "Other / Prefers not to disclose",
+      "marketingConsent": false,
+      "prepaymentRequired": false,
+      "createdAt": "2026-02-04T15:06:40.616Z",
+      "__v": 0
+    },
+    {
+      "_id": "6983616ab6bf558b18b89311",
+      "name": "Jose",
+      "email": "jose@gmail.com",
+      "password": "$2b$10$eXbvnZAWlI1Sf5DqkXdBEOhOXoknyl4maveLGA3qKQY/bFJjTw8iW",
+      "role": "receptionist",
+      "phone": "+123456789",
+      "gender": "Other / Prefers not to disclose",
+      "marketingConsent": false,
+      "prepaymentRequired": false,
+      "createdAt": "2026-02-04T15:10:34.597Z",
+      "__v": 0
+    },
+    {
+      "_id": "698361a9b6bf558b18b89320",
+      "name": "Felipe",
+      "email": "felipe@gmail.com",
+      "password": "$2b$10$Rvi1T/2S6IZuQ2wtl8S54u78Zs595tIOm66ThRUQcHO1PRSGntzMm",
+      "role": "receptionist",
+      "phone": "+123456789",
+      "gender": "Other / Prefers not to disclose",
+      "marketingConsent": false,
+      "prepaymentRequired": false,
+      "createdAt": "2026-02-04T15:11:37.708Z",
+      "__v": 0
+    },
+    {
+      "_id": "698361f3b6bf558b18b89335",
+      "name": "David",
+      "email": "david@gmail.com",
+      "password": "$2b$10$7n5WZKecPYWkUti31y9aWeCarx1ExIMyNMDf6Pcj57DgHTyAsEadW",
+      "role": "receptionist",
+      "phone": "+123456789",
+      "gender": "Other / Prefers not to disclose",
+      "marketingConsent": false,
+      "prepaymentRequired": false,
+      "createdAt": "2026-02-04T15:12:51.557Z",
+      "__v": 0
+    },
+    {
+      "_id": "698455093fa2b9e65ddb0d96",
+      "name": "Hassan Ali",
+      "email": "hassanali4@example.com",
+      "password": "$2b$10$L6etH1JtFs6dxvoAirqSZePXaIaQhzA71oocs1Eczo5.5SRePnzl2",
+      "role": "customer",
+      "phone": "",
+      "gender": "Other / Prefers not to disclose",
+      "marketingConsent": false,
+      "prepaymentRequired": false,
+      "createdAt": "2026-02-05T08:30:01.664Z",
+      "__v": 0
+    }
+  ],
+  "barbers": [
+    {
+      "_id": "69835de4fe96dc0c9427c0ce",
+      "name": "Yeison",
+      "email": "yeison@gmail.com",
+      "phone": "+132546987",
+      "specialties": [],
+      "profession": "",
+      "description": "",
+      "services": [],
+      "profileImage": "https://res.cloudinary.com/dftxusqcn/image/upload/v1770216928/barber-team/gfjz5rkuxewgdbo1kedq.png",
+      "isActive": true,
+      "role": "receptionist",
+      "schedule": {
+        "monday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "tuesday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "wednesday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "thursday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "friday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "saturday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "sunday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        }
+      },
+      "weeklyHours": 70,
+      "scheduleOverrides": [],
+      "createdAt": "2026-02-04T14:55:32.886Z",
+      "__v": 0
+    },
+    {
+      "_id": "69835e59b6bf558b18b8929f",
+      "name": "Estebann",
+      "email": "estebann@gmail.com",
+      "phone": "+123546987",
+      "specialties": [],
+      "profession": "",
+      "description": "",
+      "services": [],
+      "profileImage": "https://res.cloudinary.com/dftxusqcn/image/upload/v1770217045/barber-team/j2uw6byzrzu1dlvh4qma.png",
+      "isActive": true,
+      "role": "receptionist",
+      "schedule": {
+        "monday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "tuesday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "wednesday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "thursday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "friday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "saturday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "sunday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        }
+      },
+      "weeklyHours": 70,
+      "scheduleOverrides": [],
+      "createdAt": "2026-02-04T14:57:29.188Z",
+      "__v": 0
+    },
+    {
+      "_id": "69835eeab6bf558b18b892bb",
+      "name": "Steven",
+      "email": "steven@gmail.com",
+      "phone": "+123456789",
+      "specialties": [],
+      "profession": "",
+      "description": "",
+      "services": [],
+      "profileImage": "https://res.cloudinary.com/dftxusqcn/image/upload/v1770217190/barber-team/q90lst4gbcfqliqnssdl.png",
+      "isActive": true,
+      "role": "receptionist",
+      "schedule": {
+        "monday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "tuesday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "wednesday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "thursday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "friday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "saturday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "sunday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        }
+      },
+      "weeklyHours": 70,
+      "scheduleOverrides": [],
+      "createdAt": "2026-02-04T14:59:54.464Z",
+      "__v": 0
+    },
+    {
+      "_id": "69835f70b6bf558b18b892d6",
+      "name": "Brayan",
+      "email": "brayan@gmail.com",
+      "phone": "+123456789",
+      "specialties": [],
+      "profession": "",
+      "description": "",
+      "services": [],
+      "profileImage": "https://res.cloudinary.com/dftxusqcn/image/upload/v1770217324/barber-team/ufeoa2gwebehusaev2bv.png",
+      "isActive": true,
+      "role": "receptionist",
+      "schedule": {
+        "monday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "tuesday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "wednesday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "thursday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "friday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "saturday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "sunday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        }
+      },
+      "weeklyHours": 70,
+      "scheduleOverrides": [],
+      "createdAt": "2026-02-04T15:02:08.335Z",
+      "__v": 0
+    },
+    {
+      "_id": "69835facb6bf558b18b892e5",
+      "name": "Felipe Luiz",
+      "email": "felipeluiz@gmail.com",
+      "phone": "",
+      "specialties": [],
+      "profession": "",
+      "description": "",
+      "services": [],
+      "profileImage": "https://res.cloudinary.com/dftxusqcn/image/upload/v1770217384/barber-team/paqgpo8k6fuzzgfaofcd.png",
+      "isActive": true,
+      "role": "receptionist",
+      "schedule": {
+        "monday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "tuesday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "wednesday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "thursday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "friday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "saturday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "sunday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        }
+      },
+      "weeklyHours": 70,
+      "scheduleOverrides": [],
+      "createdAt": "2026-02-04T15:03:08.113Z",
+      "__v": 0
+    },
+    {
+      "_id": "69835fddb6bf558b18b892f2",
+      "name": "Julian",
+      "email": "julian@gmail.com",
+      "phone": "",
+      "specialties": [],
+      "profession": "",
+      "description": "",
+      "services": [],
+      "profileImage": "https://res.cloudinary.com/dftxusqcn/image/upload/v1770217434/barber-team/o9nyegrihmndsmocpa0m.png",
+      "isActive": true,
+      "role": "receptionist",
+      "schedule": {
+        "monday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "tuesday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "wednesday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "thursday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "friday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "saturday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "sunday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        }
+      },
+      "weeklyHours": 70,
+      "scheduleOverrides": [],
+      "createdAt": "2026-02-04T15:03:57.968Z",
+      "__v": 0
+    },
+    {
+      "_id": "6983601234626ecd0abe18d2",
+      "name": "Dilann",
+      "email": "dilann@gmail.com",
+      "phone": "+123456789",
+      "specialties": [],
+      "profession": "",
+      "description": "",
+      "services": [],
+      "profileImage": "https://res.cloudinary.com/dftxusqcn/image/upload/v1770217486/barber-team/tlcchgg4bbg0tygmpc2y.png",
+      "isActive": true,
+      "role": "receptionist",
+      "schedule": {
+        "monday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "tuesday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "wednesday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "thursday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "friday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "saturday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "sunday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        }
+      },
+      "weeklyHours": 70,
+      "scheduleOverrides": [],
+      "createdAt": "2026-02-04T15:04:50.332Z",
+      "__v": 0
+    },
+    {
+      "_id": "6983608134626ecd0abe18e9",
+      "name": "Hakki",
+      "email": "hakki@gmail.com",
+      "phone": "+123456789",
+      "specialties": [],
+      "profession": "",
+      "description": "",
+      "services": [],
+      "profileImage": "https://res.cloudinary.com/dftxusqcn/image/upload/v1770217597/barber-team/fvsvyfib8fy8ybbohjrk.png",
+      "isActive": true,
+      "role": "receptionist",
+      "schedule": {
+        "monday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "tuesday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "wednesday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "thursday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "friday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "saturday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "sunday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        }
+      },
+      "weeklyHours": 70,
+      "scheduleOverrides": [],
+      "createdAt": "2026-02-04T15:06:41.322Z",
+      "__v": 0
+    },
+    {
+      "_id": "6983616bb6bf558b18b89314",
+      "name": "Jose",
+      "email": "Jose@gmail.com",
+      "phone": "+123456789",
+      "specialties": [],
+      "profession": "",
+      "description": "",
+      "services": [],
+      "profileImage": "https://res.cloudinary.com/dftxusqcn/image/upload/v1770217831/barber-team/vpgavjo70ft10systrms.png",
+      "isActive": true,
+      "role": "receptionist",
+      "schedule": {
+        "monday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "tuesday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "wednesday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "thursday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "friday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "saturday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "sunday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        }
+      },
+      "weeklyHours": 70,
+      "scheduleOverrides": [],
+      "createdAt": "2026-02-04T15:10:35.299Z",
+      "__v": 0
+    },
+    {
+      "_id": "698361aab6bf558b18b89324",
+      "name": "Felipe",
+      "email": "Felipe@gmail.com",
+      "phone": "+123456789",
+      "specialties": [],
+      "profession": "",
+      "description": "",
+      "services": [
+        "69831ff74ac44f3e336a1eb7",
+        "69831ff74ac44f3e336a1eb8",
+        "69831ff74ac44f3e336a1eb9",
+        "69831ff74ac44f3e336a1eba",
+        "69831ff74ac44f3e336a1ebb",
+        "69831ff74ac44f3e336a1ebc",
+        "69831ff74ac44f3e336a1ebd",
+        "69831ff74ac44f3e336a1ebe",
+        "69831ff74ac44f3e336a1ebf",
+        "69831ff74ac44f3e336a1ec0",
+        "69831ff74ac44f3e336a1ec1",
+        "69831ff74ac44f3e336a1ec2",
+        "69831ff74ac44f3e336a1ec3",
+        "69831ff74ac44f3e336a1ec4",
+        "69831ff74ac44f3e336a1ec5"
+      ],
+      "profileImage": "https://res.cloudinary.com/dftxusqcn/image/upload/v1770217894/barber-team/jcis0qgrdwpav8dyga3b.png",
+      "isActive": true,
+      "role": "receptionist",
+      "schedule": {
+        "monday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "tuesday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "wednesday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "thursday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "friday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "saturday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "sunday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        }
+      },
+      "weeklyHours": 70,
+      "scheduleOverrides": [],
+      "createdAt": "2026-02-04T15:11:38.495Z",
+      "__v": 0
+    },
+    {
+      "_id": "698361f4b6bf558b18b89338",
+      "name": "David",
+      "email": "David@gmail.com",
+      "phone": "+123456789",
+      "specialties": [],
+      "profession": "",
+      "description": "",
+      "services": [],
+      "profileImage": "https://res.cloudinary.com/dftxusqcn/image/upload/v1770217968/barber-team/j9cayxtss2n4iupe8ysa.png",
+      "isActive": true,
+      "role": "receptionist",
+      "schedule": {
+        "monday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "tuesday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "wednesday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "thursday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "friday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "saturday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        },
+        "sunday": {
+          "isWorking": true,
+          "startTime": "10:00",
+          "endTime": "20:00"
+        }
+      },
+      "weeklyHours": 70,
+      "scheduleOverrides": [],
+      "createdAt": "2026-02-04T15:12:52.294Z",
+      "__v": 0
+    }
+  ],
+  "services": [
+    {
+      "_id": "69831ff74ac44f3e336a1eb8",
+      "name": "Kids Haircut (Under 12)",
+      "description": "Special haircut for children",
+      "category": "Special Services",
+      "price": 20,
+      "duration": 30,
+      "isActive": true,
+      "createdAt": "2026-02-04T10:31:19.051Z",
+      "__v": 0
+    },
+    {
+      "_id": "69831ff74ac44f3e336a1ec5",
+      "name": "Keratin Tre Blow Dry",
+      "description": "Professional wash and styling",
+      "category": "Hairdressing",
+      "price": 20,
+      "duration": 30,
+      "isActive": true,
+      "createdAt": "2026-02-04T10:31:19.056Z",
+      "__v": 0
+    },
+    {
+      "_id": "69831ff74ac44f3e336a1ebb",
+      "name": "Deep Tissue Massage",
+      "description": "Intense muscle therapy",
+      "category": "Body Massage",
+      "price": 80,
+      "duration": 60,
+      "isActive": true,
+      "createdAt": "2026-02-04T10:31:19.052Z",
+      "__v": 0
+    },
+    {
+      "_id": "69831ff74ac44f3e336a1ec1",
+      "name": "Waxing",
+      "description": "Professional waxing service",
+      "category": "Beard Services",
+      "price": 15,
+      "duration": 20,
+      "isActive": true,
+      "createdAt": "2026-02-04T10:31:19.055Z",
+      "__v": 0
+    },
+    {
+      "_id": "69831ff74ac44f3e336a1ebd",
+      "name": "Foot Massage",
+      "description": "Soothing foot massage",
+      "category": "Body Massage",
+      "price": 30,
+      "duration": 30,
+      "isActive": true,
+      "createdAt": "2026-02-04T10:31:19.053Z",
+      "__v": 0
+    },
+    {
+      "_id": "69831ff74ac44f3e336a1ebe",
+      "name": "Beard Trim",
+      "description": "Professional beard trimming and shaping",
+      "category": "Beard Services",
+      "price": 15,
+      "duration": 20,
+      "isActive": true,
+      "createdAt": "2026-02-04T10:31:19.054Z",
+      "__v": 0
+    },
+    {
+      "_id": "69831ff74ac44f3e336a1ec2",
+      "name": "Hair Straightening",
+      "description": "Professional hair straightening",
+      "category": "Hairdressing",
+      "price": 50,
+      "duration": 60,
+      "isActive": true,
+      "createdAt": "2026-02-04T10:31:19.055Z",
+      "__v": 0
+    },
+    {
+      "_id": "69831ff74ac44f3e336a1ebf",
+      "name": "Beard Styling",
+      "description": "Complete beard styling service",
+      "category": "Beard Services",
+      "price": 20,
+      "duration": 25,
+      "isActive": true,
+      "createdAt": "2026-02-04T10:31:19.054Z",
+      "__v": 0
+    },
+    {
+      "_id": "69831ff74ac44f3e336a1ec4",
+      "name": "Hair Wash &",
+      "description": "Hair highlights and lowlights",
+      "category": "Hairdressing",
+      "price": 70,
+      "duration": 90,
+      "isActive": true,
+      "createdAt": "2026-02-04T10:31:19.056Z",
+      "__v": 0
+    },
+    {
+      "_id": "69831ff74ac44f3e336a1ebc",
+      "name": "Head Massage",
+      "description": "Relaxing head and scalp massage",
+      "category": "Body Massage",
+      "price": 25,
+      "duration": 20,
+      "isActive": true,
+      "createdAt": "2026-02-04T10:31:19.053Z",
+      "__v": 0
+    },
+    {
+      "_id": "69831ff74ac44f3e336a1eb7",
+      "name": "Men's Haircut",
+      "description": "Professional haircut with styling",
+      "category": "Special Services",
+      "price": 30,
+      "duration": 45,
+      "isActive": true,
+      "createdAt": "2026-02-04T10:31:19.047Z",
+      "__v": 0
+    },
+    {
+      "_id": "69831ff74ac44f3e336a1eb9",
+      "name": "Hair Coloring",
+      "description": "Full hair coloring service",
+      "category": "Special Services",
+      "price": 60,
+      "duration": 90,
+      "isActive": true,
+      "createdAt": "2026-02-04T10:31:19.051Z",
+      "__v": 0
+    },
+    {
+      "_id": "69831ff74ac44f3e336a1eba",
+      "name": "Swedish Massage",
+      "description": "Relaxing full body massage",
+      "category": "Body Massage",
+      "price": 70,
+      "duration": 60,
+      "isActive": true,
+      "createdAt": "2026-02-04T10:31:19.052Z",
+      "__v": 0
+    },
+    {
+      "_id": "69831ff74ac44f3e336a1ec3",
+      "name": "Highlightsatment",
+      "description": "Smoothing keratin treatment",
+      "category": "Hairdressing",
+      "price": 100,
+      "duration": 120,
+      "isActive": true,
+      "createdAt": "2026-02-04T10:31:19.056Z",
+      "__v": 0
+    },
+    {
+      "_id": "69831ff74ac44f3e336a1ec0",
+      "name": "Full Shave",
+      "description": "Traditional hot towel shave",
+      "category": "Beard Services",
+      "price": 25,
+      "duration": 30,
+      "isActive": true,
+      "createdAt": "2026-02-04T10:31:19.055Z",
+      "__v": 0
+    }
+  ],
+  "bookings": [
+    {
+      "_id": "6983638b64ed6fc25b455dd1",
+      "user": null,
+      "guestCustomer": "6983633464ed6fc25b455dbf",
+      "customerInfo": {
+        "name": "ali",
+        "email": "ali@demo.com",
+        "phone": "+123456"
+      },
+      "barber": "69835eeab6bf558b18b892bb",
+      "services": [
+        {
+          "serviceId": "69831ff74ac44f3e336a1eb7",
+          "serviceName": "Men's Haircut",
+          "price": 30,
+          "duration": 45,
+          "_id": "6983638b64ed6fc25b455dd2"
+        }
+      ],
+      "service": "69831ff74ac44f3e336a1eb7",
+      "serviceName": "Men's Haircut",
+      "location": {
+        "id": "location-1",
+        "name": "De Legends Barbershop – OLDTOWN",
+        "address": "Pilies g. 38 Vilnius, LT-01123",
+        "mapUrl": "https://maps.app.goo.gl/8z77Btrk2Lv6977S7"
+      },
+      "date": "2026-02-05T00:00:00.000Z",
+      "time": "11:00",
+      "status": "completed",
+      "totalPrice": 30,
+      "totalDuration": 45,
+      "price": 30,
+      "notes": "",
+      "cancellationPolicyAccepted": true,
+      "cancellationPolicyAcceptedAt": "2026-02-04T15:19:39.459Z",
+      "paymentType": "card_on_file",
+      "paymentStatus": "paid",
+      "stripeCustomerId": "cus_TuxnLcX9v1Cgyw",
+      "stripeSetupIntentId": "seti_1Sx7rhQcm2cR9wdJiEYil6sp",
+      "stripePaymentMethodId": "pm_1Sx7rhQcm2cR9wdJClGkn3ll",
+      "cardSetupComplete": true,
+      "isPaid": true,
+      "source": "Website",
+      "hasReview": false,
+      "auditLog": [
+        {
+          "action": "booking_created",
+          "performedBy": "Guest: ali@demo.com",
+          "performedAt": "2026-02-04T15:19:39.459Z",
+          "details": "Guest booking created. Card on file.",
+          "_id": "6983638b64ed6fc25b455dd3"
+        },
+        {
+          "action": "payment_charged_after_service",
+          "performedBy": "admin@salon.com",
+          "performedAt": "2026-02-04T15:21:26.355Z",
+          "details": "Payment charged after service completion: €30",
+          "_id": "698363f6d060a8df60b02718"
+        }
+      ],
+      "comments": [],
+      "chargeAttempts": [
+        {
+          "attemptedAt": "2026-02-04T15:21:26.353Z",
+          "amount": 30,
+          "reason": "service_completed",
+          "success": true,
+          "stripePaymentIntentId": "pi_3Sx7tRQcm2cR9wdJ0QTYuZM6",
+          "_id": "698363f6d060a8df60b02717"
+        }
+      ],
+      "createdAt": "2026-02-04T15:19:39.461Z",
+      "updatedAt": "2026-02-04T15:21:26.361Z",
+      "__v": 1,
+      "stripePaymentIntentId": "pi_3Sx7tRQcm2cR9wdJ0QTYuZM6"
+    },
+    {
+      "_id": "69836477fdbf5818c1740086",
+      "user": null,
+      "guestCustomer": "69836477fdbf5818c1740083",
+      "customerInfo": {
+        "name": "ali",
+        "email": "ali@demo.com",
+        "phone": "+123345"
+      },
+      "barber": "69835eeab6bf558b18b892bb",
+      "services": [
+        {
+          "serviceId": "69831ff74ac44f3e336a1eb7",
+          "serviceName": "Men's Haircut",
+          "price": 30,
+          "duration": 45,
+          "_id": "69836477fdbf5818c1740087"
+        }
+      ],
+      "service": "69831ff74ac44f3e336a1eb7",
+      "serviceName": "Men's Haircut",
+      "location": {
+        "id": "location-2",
+        "name": "De Legends Barbershop – BIG VILNIUS",
+        "address": "Ukmergės g. 369 Vilnius, LT-06331",
+        "mapUrl": "https://maps.app.goo.gl/qHjJVtjcx5JP3LQa9"
+      },
+      "date": "2026-02-04T00:00:00.000Z",
+      "time": "19:45",
+      "status": "pending",
+      "totalPrice": 30,
+      "totalDuration": 45,
+      "price": 30,
+      "notes": "",
+      "cancellationPolicyAccepted": true,
+      "cancellationPolicyAcceptedAt": "2026-02-04T15:23:35.912Z",
+      "paymentType": "pay_at_venue",
+      "paymentStatus": "pending",
+      "stripeCustomerId": null,
+      "stripeSetupIntentId": null,
+      "stripePaymentMethodId": null,
+      "cardSetupComplete": false,
+      "isPaid": false,
+      "source": "Website",
+      "hasReview": false,
+      "auditLog": [
+        {
+          "action": "booking_created",
+          "performedBy": "Guest: ali@demo.com",
+          "performedAt": "2026-02-04T15:23:35.912Z",
+          "details": "Guest booking created with Pay at Venue option",
+          "_id": "69836477fdbf5818c1740088"
+        }
+      ],
+      "comments": [],
+      "chargeAttempts": [],
+      "createdAt": "2026-02-04T15:23:35.916Z",
+      "updatedAt": "2026-02-04T15:23:35.918Z",
+      "__v": 0
+    },
+    {
+      "_id": "698438fab9b39d7a2ae618f5",
+      "user": null,
+      "guestCustomer": "698438f8b9b39d7a2ae618ef",
+      "customerInfo": {
+        "name": "ali",
+        "email": "ali@demo.com",
+        "phone": "+123456789"
+      },
+      "barber": "69835e59b6bf558b18b8929f",
+      "services": [
+        {
+          "serviceId": "69831ff74ac44f3e336a1eb9",
+          "serviceName": "Hair Coloring",
+          "price": 60,
+          "duration": 90,
+          "_id": "698438fab9b39d7a2ae618f6"
+        },
+        {
+          "serviceId": "69831ff74ac44f3e336a1eb7",
+          "serviceName": "Men's Haircut",
+          "price": 30,
+          "duration": 45,
+          "_id": "698438fab9b39d7a2ae618f7"
+        }
+      ],
+      "service": "69831ff74ac44f3e336a1eb9",
+      "serviceName": "Hair Coloring",
+      "location": {
+        "id": "location-1",
+        "name": "De Legends Barbershop – OLDTOWN",
+        "address": "Pilies g. 38 Vilnius, LT-01123",
+        "mapUrl": "https://maps.app.goo.gl/8z77Btrk2Lv6977S7"
+      },
+      "date": "2026-02-06T00:00:00.000Z",
+      "time": "09:00",
+      "status": "pending",
+      "totalPrice": 90,
+      "totalDuration": 135,
+      "price": 90,
+      "notes": "",
+      "cancellationPolicyAccepted": true,
+      "cancellationPolicyAcceptedAt": "2026-02-05T06:30:18.601Z",
+      "paymentType": "card_on_file",
+      "paymentStatus": "pending",
+      "stripeCustomerId": "cus_TvCTPD5dLvgnVY",
+      "stripeSetupIntentId": "seti_1SxM4yQcm2cR9wdJyEnq6tcQ",
+      "stripePaymentMethodId": "pm_1SxM4zQcm2cR9wdJGnOIqNve",
+      "cardSetupComplete": true,
+      "isPaid": false,
+      "source": "Website",
+      "hasReview": false,
+      "auditLog": [
+        {
+          "action": "booking_created",
+          "performedBy": "Guest: ali@demo.com",
+          "performedAt": "2026-02-05T06:30:18.601Z",
+          "details": "Guest booking created. Card on file.",
+          "_id": "698438fab9b39d7a2ae618f8"
+        }
+      ],
+      "comments": [],
+      "chargeAttempts": [],
+      "createdAt": "2026-02-05T06:30:18.605Z",
+      "updatedAt": "2026-02-05T06:30:18.607Z",
+      "__v": 0
+    },
+    {
+      "_id": "6984395f3668768ab04c7c04",
+      "user": null,
+      "guestCustomer": "6984395c3668768ab04c7bfe",
+      "customerInfo": {
+        "name": "ahmed",
+        "email": "ahmed@demo.com",
+        "phone": "+123456789"
+      },
+      "barber": "69835e59b6bf558b18b8929f",
+      "services": [
+        {
+          "serviceId": "69831ff74ac44f3e336a1eb7",
+          "serviceName": "Men's Haircut",
+          "price": 30,
+          "duration": 45,
+          "_id": "6984395f3668768ab04c7c05"
+        },
+        {
+          "serviceId": "69831ff74ac44f3e336a1eb8",
+          "serviceName": "Kids Haircut (Under 12)",
+          "price": 20,
+          "duration": 30,
+          "_id": "6984395f3668768ab04c7c06"
+        }
+      ],
+      "service": "69831ff74ac44f3e336a1eb7",
+      "serviceName": "Men's Haircut",
+      "location": {
+        "id": "location-2",
+        "name": "De Legends Barbershop – BIG VILNIUS",
+        "address": "Ukmergės g. 369 Vilnius, LT-06331",
+        "mapUrl": "https://maps.app.goo.gl/qHjJVtjcx5JP3LQa9"
+      },
+      "date": "2026-02-06T00:00:00.000Z",
+      "time": "09:15",
+      "status": "pending",
+      "totalPrice": 50,
+      "totalDuration": 75,
+      "price": 50,
+      "notes": "",
+      "cancellationPolicyAccepted": true,
+      "cancellationPolicyAcceptedAt": "2026-02-05T06:31:59.195Z",
+      "paymentType": "card_on_file",
+      "paymentStatus": "pending",
+      "stripeCustomerId": "cus_TvCV3zjsMPJu4Z",
+      "stripeSetupIntentId": "seti_1SxM6aQcm2cR9wdJV2r8uIzv",
+      "stripePaymentMethodId": "pm_1SxM6bQcm2cR9wdJHdNAiwuX",
+      "cardSetupComplete": true,
+      "isPaid": false,
+      "source": "Website",
+      "hasReview": false,
+      "auditLog": [
+        {
+          "action": "booking_created",
+          "performedBy": "Guest: ahmed@demo.com",
+          "performedAt": "2026-02-05T06:31:59.195Z",
+          "details": "Guest booking created. Card on file.",
+          "_id": "6984395f3668768ab04c7c07"
+        }
+      ],
+      "comments": [],
+      "chargeAttempts": [],
+      "createdAt": "2026-02-05T06:31:59.199Z",
+      "updatedAt": "2026-02-05T06:31:59.201Z",
+      "__v": 0
+    },
+    {
+      "_id": "69843a48b9b39d7a2ae619c5",
+      "user": null,
+      "guestCustomer": "69843a45b9b39d7a2ae619c0",
+      "customerInfo": {
+        "name": "David",
+        "email": "david@demo.com",
+        "phone": "+123456789"
+      },
+      "barber": "69835e59b6bf558b18b8929f",
+      "services": [
+        {
+          "serviceId": "69831ff74ac44f3e336a1eb9",
+          "serviceName": "Hair Coloring",
+          "price": 60,
+          "duration": 90,
+          "_id": "69843a48b9b39d7a2ae619c6"
+        }
+      ],
+      "service": "69831ff74ac44f3e336a1eb9",
+      "serviceName": "Hair Coloring",
+      "location": {
+        "id": "location-1",
+        "name": "De Legends Barbershop – OLDTOWN",
+        "address": "Pilies g. 38 Vilnius, LT-01123",
+        "mapUrl": "https://maps.app.goo.gl/8z77Btrk2Lv6977S7"
+      },
+      "date": "2026-02-06T00:00:00.000Z",
+      "time": "11:15",
+      "status": "pending",
+      "totalPrice": 60,
+      "totalDuration": 90,
+      "price": 60,
+      "notes": "",
+      "cancellationPolicyAccepted": true,
+      "cancellationPolicyAcceptedAt": "2026-02-05T06:35:52.503Z",
+      "paymentType": "card_on_file",
+      "paymentStatus": "pending",
+      "stripeCustomerId": "cus_TvCZxBIA6rs1lC",
+      "stripeSetupIntentId": "seti_1SxMALQcm2cR9wdJ9X25oH0u",
+      "stripePaymentMethodId": "pm_1SxMAMQcm2cR9wdJoqHqXvtb",
+      "cardSetupComplete": true,
+      "isPaid": false,
+      "source": "Website",
+      "hasReview": false,
+      "auditLog": [
+        {
+          "action": "booking_created",
+          "performedBy": "Guest: david@demo.com",
+          "performedAt": "2026-02-05T06:35:52.503Z",
+          "details": "Guest booking created. Card on file.",
+          "_id": "69843a48b9b39d7a2ae619c7"
+        }
+      ],
+      "comments": [],
+      "chargeAttempts": [],
+      "createdAt": "2026-02-05T06:35:52.504Z",
+      "updatedAt": "2026-02-05T06:35:52.505Z",
+      "__v": 0
+    },
+    {
+      "_id": "69843b84b9b39d7a2ae61b55",
+      "user": null,
+      "guestCustomer": "69843b82b9b39d7a2ae61b50",
+      "customerInfo": {
+        "name": "ali ahmed",
+        "email": "aliahmed@gmail.com",
+        "phone": "+123456789"
+      },
+      "barber": "6983601234626ecd0abe18d2",
+      "services": [
+        {
+          "serviceId": "69831ff74ac44f3e336a1ebb",
+          "serviceName": "Deep Tissue Massage",
+          "price": 80,
+          "duration": 60,
+          "_id": "69843b84b9b39d7a2ae61b56"
+        }
+      ],
+      "service": "69831ff74ac44f3e336a1ebb",
+      "serviceName": "Deep Tissue Massage",
+      "location": {
+        "id": "location-2",
+        "name": "De Legends Barbershop – BIG VILNIUS",
+        "address": "Ukmergės g. 369 Vilnius, LT-06331",
+        "mapUrl": "https://maps.app.goo.gl/qHjJVtjcx5JP3LQa9"
+      },
+      "date": "2026-02-06T00:00:00.000Z",
+      "time": "09:00",
+      "status": "pending",
+      "totalPrice": 80,
+      "totalDuration": 60,
+      "price": 80,
+      "notes": "",
+      "cancellationPolicyAccepted": true,
+      "cancellationPolicyAcceptedAt": "2026-02-05T06:41:08.818Z",
+      "paymentType": "card_on_file",
+      "paymentStatus": "pending",
+      "stripeCustomerId": "cus_TvCeJ9YBOf7yfV",
+      "stripeSetupIntentId": "seti_1SxMFSQcm2cR9wdJuDcrDTWd",
+      "stripePaymentMethodId": "pm_1SxMFTQcm2cR9wdJCdUY8ZOE",
+      "cardSetupComplete": true,
+      "isPaid": false,
+      "source": "Website",
+      "hasReview": false,
+      "auditLog": [
+        {
+          "action": "booking_created",
+          "performedBy": "Guest: aliahmed@gmail.com",
+          "performedAt": "2026-02-05T06:41:08.818Z",
+          "details": "Guest booking created. Card on file.",
+          "_id": "69843b84b9b39d7a2ae61b57"
+        }
+      ],
+      "comments": [],
+      "chargeAttempts": [],
+      "createdAt": "2026-02-05T06:41:08.819Z",
+      "updatedAt": "2026-02-05T06:41:08.820Z",
+      "__v": 0
+    },
+    {
+      "_id": "69843bce3668768ab04c7e3f",
+      "user": null,
+      "guestCustomer": "69843bce3668768ab04c7e3c",
+      "customerInfo": {
+        "name": "Faraz",
+        "email": "faraz@demo.com",
+        "phone": "+123456789"
+      },
+      "barber": "698361f4b6bf558b18b89338",
+      "services": [
+        {
+          "serviceId": "69831ff74ac44f3e336a1ec0",
+          "serviceName": "Full Shave",
+          "price": 25,
+          "duration": 30,
+          "_id": "69843bce3668768ab04c7e40"
+        }
+      ],
+      "service": "69831ff74ac44f3e336a1ec0",
+      "serviceName": "Full Shave",
+      "location": {
+        "id": "location-2",
+        "name": "De Legends Barbershop – BIG VILNIUS",
+        "address": "Ukmergės g. 369 Vilnius, LT-06331",
+        "mapUrl": "https://maps.app.goo.gl/qHjJVtjcx5JP3LQa9"
+      },
+      "date": "2026-02-05T00:00:00.000Z",
+      "time": "09:00",
+      "status": "pending",
+      "totalPrice": 25,
+      "totalDuration": 30,
+      "price": 25,
+      "notes": "",
+      "cancellationPolicyAccepted": true,
+      "cancellationPolicyAcceptedAt": "2026-02-05T06:42:22.047Z",
+      "paymentType": "pay_at_venue",
+      "paymentStatus": "pending",
+      "stripeCustomerId": null,
+      "stripeSetupIntentId": null,
+      "stripePaymentMethodId": null,
+      "cardSetupComplete": false,
+      "isPaid": false,
+      "source": "Website",
+      "hasReview": false,
+      "auditLog": [
+        {
+          "action": "booking_created",
+          "performedBy": "Guest: faraz@demo.com",
+          "performedAt": "2026-02-05T06:42:22.047Z",
+          "details": "Guest booking created with Pay at Venue option",
+          "_id": "69843bce3668768ab04c7e41"
+        }
+      ],
+      "comments": [],
+      "chargeAttempts": [],
+      "createdAt": "2026-02-05T06:42:22.048Z",
+      "updatedAt": "2026-02-05T06:42:22.050Z",
+      "__v": 0
+    },
+    {
+      "_id": "69843c923668768ab04c7ffe",
+      "user": null,
+      "guestCustomer": "69843c903668768ab04c7ff8",
+      "customerInfo": {
+        "name": "sarfraz",
+        "email": "sarfraz@demo.com",
+        "phone": "+123456789"
+      },
+      "barber": "69835eeab6bf558b18b892bb",
+      "services": [
+        {
+          "serviceId": "69831ff74ac44f3e336a1eb7",
+          "serviceName": "Men's Haircut",
+          "price": 30,
+          "duration": 45,
+          "_id": "69843c923668768ab04c7fff"
+        },
+        {
+          "serviceId": "69831ff74ac44f3e336a1eb8",
+          "serviceName": "Kids Haircut (Under 12)",
+          "price": 20,
+          "duration": 30,
+          "_id": "69843c923668768ab04c8000"
+        }
+      ],
+      "service": "69831ff74ac44f3e336a1eb7",
+      "serviceName": "Men's Haircut",
+      "location": {
+        "id": "location-1",
+        "name": "De Legends Barbershop – OLDTOWN",
+        "address": "Pilies g. 38 Vilnius, LT-01123",
+        "mapUrl": "https://maps.app.goo.gl/8z77Btrk2Lv6977S7"
+      },
+      "date": "2026-02-06T00:00:00.000Z",
+      "time": "09:30",
+      "status": "pending",
+      "totalPrice": 50,
+      "totalDuration": 75,
+      "price": 50,
+      "notes": "",
+      "cancellationPolicyAccepted": true,
+      "cancellationPolicyAcceptedAt": "2026-02-05T06:45:38.442Z",
+      "paymentType": "card_on_file",
+      "paymentStatus": "pending",
+      "stripeCustomerId": "cus_TvCj0WGdyY9b8Q",
+      "stripeSetupIntentId": "seti_1SxMJoQcm2cR9wdJIt6AaJX1",
+      "stripePaymentMethodId": "pm_1SxMJoQcm2cR9wdJsRjHioDw",
+      "cardSetupComplete": true,
+      "isPaid": false,
+      "source": "Website",
+      "hasReview": false,
+      "auditLog": [
+        {
+          "action": "booking_created",
+          "performedBy": "Guest: sarfraz@demo.com",
+          "performedAt": "2026-02-05T06:45:38.442Z",
+          "details": "Guest booking created. Card on file.",
+          "_id": "69843c923668768ab04c8001"
+        }
+      ],
+      "comments": [],
+      "chargeAttempts": [],
+      "createdAt": "2026-02-05T06:45:38.444Z",
+      "updatedAt": "2026-02-05T06:45:38.445Z",
+      "__v": 0
+    },
+    {
+      "_id": "69843d0a3668768ab04c8092",
+      "user": null,
+      "guestCustomer": "69843d073668768ab04c808d",
+      "customerInfo": {
+        "name": "Dani",
+        "email": "dani@demo.com",
+        "phone": "+123456978"
+      },
+      "barber": "69835f70b6bf558b18b892d6",
+      "services": [
+        {
+          "serviceId": "69831ff74ac44f3e336a1eba",
+          "serviceName": "Swedish Massage",
+          "price": 70,
+          "duration": 60,
+          "_id": "69843d0a3668768ab04c8093"
+        }
+      ],
+      "service": "69831ff74ac44f3e336a1eba",
+      "serviceName": "Swedish Massage",
+      "location": {
+        "id": "location-2",
+        "name": "De Legends Barbershop – BIG VILNIUS",
+        "address": "Ukmergės g. 369 Vilnius, LT-06331",
+        "mapUrl": "https://maps.app.goo.gl/qHjJVtjcx5JP3LQa9"
+      },
+      "date": "2026-02-06T00:00:00.000Z",
+      "time": "09:30",
+      "status": "pending",
+      "totalPrice": 70,
+      "totalDuration": 60,
+      "price": 70,
+      "notes": "",
+      "cancellationPolicyAccepted": true,
+      "cancellationPolicyAcceptedAt": "2026-02-05T06:47:38.951Z",
+      "paymentType": "card_on_file",
+      "paymentStatus": "pending",
+      "stripeCustomerId": "cus_TvClsYgh5X2tFB",
+      "stripeSetupIntentId": "seti_1SxMLjQcm2cR9wdJU6TBYuLy",
+      "stripePaymentMethodId": "pm_1SxMLlQcm2cR9wdJR0cpGOkg",
+      "cardSetupComplete": true,
+      "isPaid": false,
+      "source": "Website",
+      "hasReview": false,
+      "auditLog": [
+        {
+          "action": "booking_created",
+          "performedBy": "Guest: dani@demo.com",
+          "performedAt": "2026-02-05T06:47:38.951Z",
+          "details": "Guest booking created. Card on file.",
+          "_id": "69843d0a3668768ab04c8094"
+        }
+      ],
+      "comments": [],
+      "chargeAttempts": [],
+      "createdAt": "2026-02-05T06:47:38.952Z",
+      "updatedAt": "2026-02-05T06:47:38.953Z",
+      "__v": 0
+    },
+    {
+      "_id": "69843db33668768ab04c81de",
+      "user": null,
+      "guestCustomer": "69843db03668768ab04c81bd",
+      "customerInfo": {
+        "name": "hammad",
+        "email": "hammad@demo.com",
+        "phone": "+123456789"
+      },
+      "barber": "69835facb6bf558b18b892e5",
+      "services": [
+        {
+          "serviceId": "69831ff74ac44f3e336a1ec0",
+          "serviceName": "Full Shave",
+          "price": 25,
+          "duration": 30,
+          "_id": "69843db33668768ab04c81df"
+        }
+      ],
+      "service": "69831ff74ac44f3e336a1ec0",
+      "serviceName": "Full Shave",
+      "location": {
+        "id": "location-2",
+        "name": "De Legends Barbershop – BIG VILNIUS",
+        "address": "Ukmergės g. 369 Vilnius, LT-06331",
+        "mapUrl": "https://maps.app.goo.gl/qHjJVtjcx5JP3LQa9"
+      },
+      "date": "2026-02-06T00:00:00.000Z",
+      "time": "09:45",
+      "status": "pending",
+      "totalPrice": 25,
+      "totalDuration": 30,
+      "price": 25,
+      "notes": "",
+      "cancellationPolicyAccepted": true,
+      "cancellationPolicyAcceptedAt": "2026-02-05T06:50:27.072Z",
+      "paymentType": "card_on_file",
+      "paymentStatus": "pending",
+      "stripeCustomerId": "cus_TvCoKyamAd3Oua",
+      "stripeSetupIntentId": "seti_1SxMOSQcm2cR9wdJ6u7qhZ7a",
+      "stripePaymentMethodId": "pm_1SxMOTQcm2cR9wdJrtCFxyP0",
+      "cardSetupComplete": true,
+      "isPaid": false,
+      "source": "Website",
+      "hasReview": false,
+      "auditLog": [
+        {
+          "action": "booking_created",
+          "performedBy": "Guest: hammad@demo.com",
+          "performedAt": "2026-02-05T06:50:27.072Z",
+          "details": "Guest booking created. Card on file.",
+          "_id": "69843db33668768ab04c81e0"
+        }
+      ],
+      "comments": [],
+      "chargeAttempts": [],
+      "createdAt": "2026-02-05T06:50:27.073Z",
+      "updatedAt": "2026-02-05T06:50:27.074Z",
+      "__v": 0
+    },
+    {
+      "_id": "69843e9fb9b39d7a2ae61fc3",
+      "user": null,
+      "guestCustomer": "69843e95b9b39d7a2ae61f9e",
+      "customerInfo": {
+        "name": "asghar",
+        "email": "asghar@demo.com",
+        "phone": "+123456789"
+      },
+      "barber": "69835fddb6bf558b18b892f2",
+      "services": [
+        {
+          "serviceId": "69831ff74ac44f3e336a1ec0",
+          "serviceName": "Full Shave",
+          "price": 25,
+          "duration": 30,
+          "_id": "69843e9fb9b39d7a2ae61fc4"
+        },
+        {
+          "serviceId": "69831ff74ac44f3e336a1ebf",
+          "serviceName": "Beard Styling",
+          "price": 20,
+          "duration": 25,
+          "_id": "69843e9fb9b39d7a2ae61fc5"
+        }
+      ],
+      "service": "69831ff74ac44f3e336a1ec0",
+      "serviceName": "Full Shave",
+      "location": {
+        "id": "location-2",
+        "name": "De Legends Barbershop – BIG VILNIUS",
+        "address": "Ukmergės g. 369 Vilnius, LT-06331",
+        "mapUrl": "https://maps.app.goo.gl/qHjJVtjcx5JP3LQa9"
+      },
+      "date": "2026-02-06T00:00:00.000Z",
+      "time": "10:00",
+      "status": "pending",
+      "totalPrice": 45,
+      "totalDuration": 55,
+      "price": 45,
+      "notes": "",
+      "cancellationPolicyAccepted": true,
+      "cancellationPolicyAcceptedAt": "2026-02-05T06:54:23.618Z",
+      "paymentType": "card_on_file",
+      "paymentStatus": "pending",
+      "stripeCustomerId": "cus_TvCrUDOkz7RfZk",
+      "stripeSetupIntentId": "seti_1SxMSHQcm2cR9wdJ3mF5XqAC",
+      "stripePaymentMethodId": "pm_1SxMSHQcm2cR9wdJzwpZqaNR",
+      "cardSetupComplete": true,
+      "isPaid": false,
+      "source": "Website",
+      "hasReview": false,
+      "auditLog": [
+        {
+          "action": "booking_created",
+          "performedBy": "Guest: asghar@demo.com",
+          "performedAt": "2026-02-05T06:54:23.618Z",
+          "details": "Guest booking created. Card on file.",
+          "_id": "69843e9fb9b39d7a2ae61fc6"
+        }
+      ],
+      "comments": [],
+      "chargeAttempts": [],
+      "createdAt": "2026-02-05T06:54:23.619Z",
+      "updatedAt": "2026-02-05T06:54:23.620Z",
+      "__v": 0
+    },
+    {
+      "_id": "69843f2e3668768ab04c84c2",
+      "user": null,
+      "guestCustomer": "69843f2c3668768ab04c84bd",
+      "customerInfo": {
+        "name": "imran",
+        "email": "imran@demo.com",
+        "phone": "+12345678"
+      },
+      "barber": "6983601234626ecd0abe18d2",
+      "services": [
+        {
+          "serviceId": "69831ff74ac44f3e336a1ebe",
+          "serviceName": "Beard Trim",
+          "price": 15,
+          "duration": 20,
+          "_id": "69843f2e3668768ab04c84c3"
+        }
+      ],
+      "service": "69831ff74ac44f3e336a1ebe",
+      "serviceName": "Beard Trim",
+      "location": {
+        "id": "location-2",
+        "name": "De Legends Barbershop – BIG VILNIUS",
+        "address": "Ukmergės g. 369 Vilnius, LT-06331",
+        "mapUrl": "https://maps.app.goo.gl/qHjJVtjcx5JP3LQa9"
+      },
+      "date": "2026-02-06T00:00:00.000Z",
+      "time": "10:00",
+      "status": "completed",
+      "totalPrice": 15,
+      "totalDuration": 20,
+      "price": 15,
+      "notes": "",
+      "cancellationPolicyAccepted": true,
+      "cancellationPolicyAcceptedAt": "2026-02-05T06:56:46.678Z",
+      "paymentType": "card_on_file",
+      "paymentStatus": "paid",
+      "stripeCustomerId": "cus_TvCuNXwi0efr5l",
+      "stripeSetupIntentId": "seti_1SxMUaQcm2cR9wdJrUDkwkI0",
+      "stripePaymentMethodId": "pm_1SxMUbQcm2cR9wdJ0mWNDTfn",
+      "cardSetupComplete": true,
+      "isPaid": true,
+      "source": "Website",
+      "hasReview": false,
+      "auditLog": [
+        {
+          "action": "booking_created",
+          "performedBy": "Guest: imran@demo.com",
+          "performedAt": "2026-02-05T06:56:46.678Z",
+          "details": "Guest booking created. Card on file.",
+          "_id": "69843f2e3668768ab04c84c4"
+        },
+        {
+          "action": "payment_charged_after_service",
+          "performedBy": "admin@salon.com",
+          "performedAt": "2026-02-05T07:08:24.156Z",
+          "details": "Payment charged after service completion: €15",
+          "_id": "698441e8b9b39d7a2ae6255e"
+        }
+      ],
+      "comments": [],
+      "chargeAttempts": [
+        {
+          "attemptedAt": "2026-02-05T07:08:24.156Z",
+          "amount": 15,
+          "reason": "service_completed",
+          "success": true,
+          "stripePaymentIntentId": "pi_3SxMfrQcm2cR9wdJ2LWiz6dW",
+          "_id": "698441e8b9b39d7a2ae6255d"
+        }
+      ],
+      "createdAt": "2026-02-05T06:56:46.680Z",
+      "updatedAt": "2026-02-05T07:08:24.159Z",
+      "__v": 1,
+      "stripePaymentIntentId": "pi_3SxMfrQcm2cR9wdJ2LWiz6dW"
+    },
+    {
+      "_id": "69843fe9b9b39d7a2ae621c2",
+      "user": null,
+      "guestCustomer": "69843fe6b9b39d7a2ae621bd",
+      "customerInfo": {
+        "name": "ahmed gul",
+        "email": "gul@demo.com",
+        "phone": "+123456789"
+      },
+      "barber": "69835de4fe96dc0c9427c0ce",
+      "services": [
+        {
+          "serviceId": "69831ff74ac44f3e336a1ec5",
+          "serviceName": "Keratin Tre Blow Dry",
+          "price": 20,
+          "duration": 30,
+          "_id": "69843fe9b9b39d7a2ae621c3"
+        }
+      ],
+      "service": "69831ff74ac44f3e336a1ec5",
+      "serviceName": "Keratin Tre Blow Dry",
+      "location": {
+        "id": "location-2",
+        "name": "De Legends Barbershop – BIG VILNIUS",
+        "address": "Ukmergės g. 369 Vilnius, LT-06331",
+        "mapUrl": "https://maps.app.goo.gl/qHjJVtjcx5JP3LQa9"
+      },
+      "date": "2026-02-06T00:00:00.000Z",
+      "time": "10:45",
+      "status": "completed",
+      "totalPrice": 20,
+      "totalDuration": 30,
+      "price": 20,
+      "notes": "",
+      "cancellationPolicyAccepted": true,
+      "cancellationPolicyAcceptedAt": "2026-02-05T06:59:53.094Z",
+      "paymentType": "card_on_file",
+      "paymentStatus": "paid",
+      "stripeCustomerId": "cus_TvCxIXkDnLTjkE",
+      "stripeSetupIntentId": "seti_1SxMXaQcm2cR9wdJqY6oqVrU",
+      "stripePaymentMethodId": "pm_1SxMXbQcm2cR9wdJhPenjOSr",
+      "cardSetupComplete": true,
+      "isPaid": true,
+      "source": "Website",
+      "hasReview": false,
+      "auditLog": [
+        {
+          "action": "booking_created",
+          "performedBy": "Guest: gul@demo.com",
+          "performedAt": "2026-02-05T06:59:53.094Z",
+          "details": "Guest booking created. Card on file.",
+          "_id": "69843fe9b9b39d7a2ae621c4"
+        },
+        {
+          "action": "payment_charged_after_service",
+          "performedBy": "admin@salon.com",
+          "performedAt": "2026-02-05T07:08:12.428Z",
+          "details": "Payment charged after service completion: €20",
+          "_id": "698441dcb9b39d7a2ae62494"
+        }
+      ],
+      "comments": [],
+      "chargeAttempts": [
+        {
+          "attemptedAt": "2026-02-05T07:08:12.426Z",
+          "amount": 20,
+          "reason": "service_completed",
+          "success": true,
+          "stripePaymentIntentId": "pi_3SxMffQcm2cR9wdJ0xeYBSuV",
+          "_id": "698441dcb9b39d7a2ae62493"
+        }
+      ],
+      "createdAt": "2026-02-05T06:59:53.096Z",
+      "updatedAt": "2026-02-05T07:08:12.429Z",
+      "__v": 1,
+      "stripePaymentIntentId": "pi_3SxMffQcm2cR9wdJ0xeYBSuV"
+    },
+    {
+      "_id": "698442e53668768ab04c8b3c",
+      "user": null,
+      "guestCustomer": "698442e3b9b39d7a2ae62846",
+      "customerInfo": {
+        "name": "Farooq Ahmed",
+        "email": "farooq@demo.com",
+        "phone": "+123456789"
+      },
+      "barber": "6983616bb6bf558b18b89314",
+      "services": [
+        {
+          "serviceId": "69831ff74ac44f3e336a1eb8",
+          "serviceName": "Kids Haircut (Under 12)",
+          "price": 20,
+          "duration": 30,
+          "_id": "698442e53668768ab04c8b3d"
+        }
+      ],
+      "service": "69831ff74ac44f3e336a1eb8",
+      "serviceName": "Kids Haircut (Under 12)",
+      "location": {
+        "id": "location-2",
+        "name": "De Legends Barbershop – BIG VILNIUS",
+        "address": "Ukmergės g. 369 Vilnius, LT-06331",
+        "mapUrl": "https://maps.app.goo.gl/qHjJVtjcx5JP3LQa9"
+      },
+      "date": "2026-02-06T00:00:00.000Z",
+      "time": "09:15",
+      "status": "pending",
+      "totalPrice": 20,
+      "totalDuration": 30,
+      "price": 20,
+      "notes": "",
+      "cancellationPolicyAccepted": true,
+      "cancellationPolicyAcceptedAt": "2026-02-05T07:12:37.994Z",
+      "paymentType": "card_on_file",
+      "paymentStatus": "pending",
+      "stripeCustomerId": "cus_TvDA3UWlnVlZSr",
+      "stripeSetupIntentId": "seti_1SxMjvQcm2cR9wdJQFR7lzVc",
+      "stripePaymentMethodId": "pm_1SxMjwQcm2cR9wdJQhFzmxor",
+      "cardSetupComplete": true,
+      "isPaid": false,
+      "source": "Website",
+      "hasReview": false,
+      "auditLog": [
+        {
+          "action": "booking_created",
+          "performedBy": "Guest: farooq@demo.com",
+          "performedAt": "2026-02-05T07:12:37.994Z",
+          "details": "Guest booking created. Card on file.",
+          "_id": "698442e53668768ab04c8b3e"
+        }
+      ],
+      "comments": [],
+      "chargeAttempts": [],
+      "createdAt": "2026-02-05T07:12:37.995Z",
+      "updatedAt": "2026-02-05T07:12:37.996Z",
+      "__v": 0
+    },
+    {
+      "_id": "698443ec3668768ab04c8d81",
+      "user": null,
+      "guestCustomer": "698443ea3668768ab04c8d7c",
+      "customerInfo": {
+        "name": "Ali Raza",
+        "email": "aliraza1@example.com",
+        "phone": "+0300-100001"
+      },
+      "barber": "698361aab6bf558b18b89324",
+      "services": [
+        {
+          "serviceId": "69831ff74ac44f3e336a1eb8",
+          "serviceName": "Kids Haircut (Under 12)",
+          "price": 20,
+          "duration": 30,
+          "_id": "698443ec3668768ab04c8d82"
+        }
+      ],
+      "service": "69831ff74ac44f3e336a1eb8",
+      "serviceName": "Kids Haircut (Under 12)",
+      "location": {
+        "id": "location-1",
+        "name": "De Legends Barbershop – OLDTOWN",
+        "address": "Pilies g. 38 Vilnius, LT-01123",
+        "mapUrl": "https://maps.app.goo.gl/8z77Btrk2Lv6977S7"
+      },
+      "date": "2026-02-06T00:00:00.000Z",
+      "time": "09:45",
+      "status": "pending",
+      "totalPrice": 20,
+      "totalDuration": 30,
+      "price": 20,
+      "notes": "",
+      "cancellationPolicyAccepted": true,
+      "cancellationPolicyAcceptedAt": "2026-02-05T07:17:00.529Z",
+      "paymentType": "card_on_file",
+      "paymentStatus": "pending",
+      "stripeCustomerId": "cus_TvDEFUjBh3wXuQ",
+      "stripeSetupIntentId": "seti_1SxMoAQcm2cR9wdJSs1uZJnP",
+      "stripePaymentMethodId": "pm_1SxMoAQcm2cR9wdJMXUNwMll",
+      "cardSetupComplete": true,
+      "isPaid": false,
+      "source": "Website",
+      "hasReview": false,
+      "auditLog": [
+        {
+          "action": "booking_created",
+          "performedBy": "Guest: aliraza1@example.com",
+          "performedAt": "2026-02-05T07:17:00.529Z",
+          "details": "Guest booking created. Card on file.",
+          "_id": "698443ec3668768ab04c8d83"
+        }
+      ],
+      "comments": [],
+      "chargeAttempts": [],
+      "createdAt": "2026-02-05T07:17:00.530Z",
+      "updatedAt": "2026-02-05T07:17:00.531Z",
+      "__v": 0
+    },
+    {
+      "_id": "6984458fb9b39d7a2ae62cb1",
+      "user": null,
+      "guestCustomer": "6984458db9b39d7a2ae62cac",
+      "customerInfo": {
+        "name": "Ahmed Khan",
+        "email": "ahmedkhan2@example.com",
+        "phone": "+123456"
+      },
+      "barber": "6983608134626ecd0abe18e9",
+      "services": [
+        {
+          "serviceId": "69831ff74ac44f3e336a1eb7",
+          "serviceName": "Men's Haircut",
+          "price": 30,
+          "duration": 45,
+          "_id": "6984458fb9b39d7a2ae62cb2"
+        }
+      ],
+      "service": "69831ff74ac44f3e336a1eb7",
+      "serviceName": "Men's Haircut",
+      "location": {
+        "id": "location-2",
+        "name": "De Legends Barbershop – BIG VILNIUS",
+        "address": "Ukmergės g. 369 Vilnius, LT-06331",
+        "mapUrl": "https://maps.app.goo.gl/qHjJVtjcx5JP3LQa9"
+      },
+      "date": "2026-02-06T00:00:00.000Z",
+      "time": "09:45",
+      "status": "pending",
+      "totalPrice": 30,
+      "totalDuration": 45,
+      "price": 30,
+      "notes": "",
+      "cancellationPolicyAccepted": true,
+      "cancellationPolicyAcceptedAt": "2026-02-05T07:23:59.781Z",
+      "paymentType": "card_on_file",
+      "paymentStatus": "pending",
+      "stripeCustomerId": "cus_TvDLISU6b2fOC2",
+      "stripeSetupIntentId": "seti_1SxMuvQcm2cR9wdJ410V4e5M",
+      "stripePaymentMethodId": "pm_1SxMuwQcm2cR9wdJipLu6zLp",
+      "cardSetupComplete": true,
+      "isPaid": false,
+      "source": "Website",
+      "hasReview": false,
+      "auditLog": [
+        {
+          "action": "booking_created",
+          "performedBy": "Guest: ahmedkhan2@example.com",
+          "performedAt": "2026-02-05T07:23:59.781Z",
+          "details": "Guest booking created. Card on file.",
+          "_id": "6984458fb9b39d7a2ae62cb3"
+        }
+      ],
+      "comments": [],
+      "chargeAttempts": [],
+      "createdAt": "2026-02-05T07:23:59.782Z",
+      "updatedAt": "2026-02-05T07:23:59.783Z",
+      "__v": 0
+    },
+    {
+      "_id": "698445e73668768ab04c901a",
+      "user": null,
+      "guestCustomer": "698445e43668768ab04c9015",
+      "customerInfo": {
+        "name": "Muhammad Usman",
+        "email": "muhammadusman3@example.com",
+        "phone": "+123456"
+      },
+      "barber": "698361f4b6bf558b18b89338",
+      "services": [
+        {
+          "serviceId": "69831ff74ac44f3e336a1eb8",
+          "serviceName": "Kids Haircut (Under 12)",
+          "price": 20,
+          "duration": 30,
+          "_id": "698445e73668768ab04c901b"
+        }
+      ],
+      "service": "69831ff74ac44f3e336a1eb8",
+      "serviceName": "Kids Haircut (Under 12)",
+      "location": {
+        "id": "location-2",
+        "name": "De Legends Barbershop – BIG VILNIUS",
+        "address": "Ukmergės g. 369 Vilnius, LT-06331",
+        "mapUrl": "https://maps.app.goo.gl/qHjJVtjcx5JP3LQa9"
+      },
+      "date": "2026-02-06T00:00:00.000Z",
+      "time": "09:15",
+      "status": "pending",
+      "totalPrice": 20,
+      "totalDuration": 30,
+      "price": 20,
+      "notes": "",
+      "cancellationPolicyAccepted": true,
+      "cancellationPolicyAcceptedAt": "2026-02-05T07:25:27.383Z",
+      "paymentType": "card_on_file",
+      "paymentStatus": "pending",
+      "stripeCustomerId": "cus_TvDNuJeGv83t6b",
+      "stripeSetupIntentId": "seti_1SxMwLQcm2cR9wdJWGeyF40E",
+      "stripePaymentMethodId": "pm_1SxMwLQcm2cR9wdJe0ANbf5D",
+      "cardSetupComplete": true,
+      "isPaid": false,
+      "source": "Website",
+      "hasReview": false,
+      "auditLog": [
+        {
+          "action": "booking_created",
+          "performedBy": "Guest: muhammadusman3@example.com",
+          "performedAt": "2026-02-05T07:25:27.383Z",
+          "details": "Guest booking created. Card on file.",
+          "_id": "698445e73668768ab04c901c"
+        }
+      ],
+      "comments": [],
+      "chargeAttempts": [],
+      "createdAt": "2026-02-05T07:25:27.384Z",
+      "updatedAt": "2026-02-05T07:25:27.385Z",
+      "__v": 0
+    },
+    {
+      "_id": "698446303668768ab04c908c",
+      "user": null,
+      "guestCustomer": "6984462e3668768ab04c9087",
+      "customerInfo": {
+        "name": "Hassan Ali",
+        "email": "hassanali4@example.com",
+        "phone": "+123456"
+      },
+      "barber": "69835de4fe96dc0c9427c0ce",
+      "services": [
+        {
+          "serviceId": "69831ff74ac44f3e336a1eb8",
+          "serviceName": "Kids Haircut (Under 12)",
+          "price": 20,
+          "duration": 30,
+          "_id": "698446303668768ab04c908d"
+        }
+      ],
+      "service": "69831ff74ac44f3e336a1eb8",
+      "serviceName": "Kids Haircut (Under 12)",
+      "location": {
+        "id": "location-2",
+        "name": "De Legends Barbershop – BIG VILNIUS",
+        "address": "Ukmergės g. 369 Vilnius, LT-06331",
+        "mapUrl": "https://maps.app.goo.gl/qHjJVtjcx5JP3LQa9"
+      },
+      "date": "2026-02-06T00:00:00.000Z",
+      "time": "11:15",
+      "status": "pending",
+      "totalPrice": 20,
+      "totalDuration": 30,
+      "price": 20,
+      "notes": "",
+      "cancellationPolicyAccepted": true,
+      "cancellationPolicyAcceptedAt": "2026-02-05T07:26:40.928Z",
+      "paymentType": "card_on_file",
+      "paymentStatus": "pending",
+      "stripeCustomerId": "cus_TvDOQud6P7Xbhg",
+      "stripeSetupIntentId": "seti_1SxMxWQcm2cR9wdJD8WswQkn",
+      "stripePaymentMethodId": "pm_1SxMxXQcm2cR9wdJiMNrda6l",
+      "cardSetupComplete": true,
+      "isPaid": false,
+      "source": "Website",
+      "hasReview": false,
+      "auditLog": [
+        {
+          "action": "booking_created",
+          "performedBy": "Guest: hassanali4@example.com",
+          "performedAt": "2026-02-05T07:26:40.928Z",
+          "details": "Guest booking created. Card on file.",
+          "_id": "698446303668768ab04c908e"
+        }
+      ],
+      "comments": [],
+      "chargeAttempts": [],
+      "createdAt": "2026-02-05T07:26:40.929Z",
+      "updatedAt": "2026-02-05T07:26:40.930Z",
+      "__v": 0
+    }
+  ],
+  "reviews": [
+    {
+      "_id": "6985e6c22e18500f7b63885a",
+      "customerName": "velvilie kumanan",
+      "serviceName": "Blow Dry",
+      "barberName": "Marcus",
+      "rating": 5,
+      "comment": "Stumbled on this hairdresser by chance, so glad that I did! Such a lovely, sweet person, haircut was great, a great experience. Will definitely be going back and telling friends & family.",
+      "isVerified": true,
+      "venueReply": null,
+      "status": "approved",
+      "createdAt": "2026-02-05T16:03:54.466Z",
+      "updatedAt": "2026-02-06T13:04:02.279Z",
+      "__v": 0
+    },
+    {
+      "_id": "6985e6c22e18500f7b63885b",
+      "customerName": "Vicky",
+      "serviceName": "Blow Dry",
+      "barberName": "James",
+      "rating": 5,
+      "comment": "Would highly recommend this salon. I booked a last minute blow-dry and showed the barber a picture of what I wanted. He was amazing and highly skilled and did a great job on my hair. I was very happy and would definitely go back again.",
+      "isVerified": true,
+      "venueReply": "Thank you so much for your kind words! We look forward to seeing you again soon.",
+      "status": "approved",
+      "createdAt": "2026-02-03T13:03:54.466Z",
+      "updatedAt": "2026-02-06T13:04:02.281Z",
+      "__v": 0
+    },
+    {
+      "_id": "6985e6c22e18500f7b63885c",
+      "customerName": "Ioana",
+      "serviceName": "Men's Haircut & Styling",
+      "barberName": "Marcus",
+      "rating": 5,
+      "comment": "I went in for a haircut and had such a great experience with Marcus. He was amazing, warm, welcoming, and incredibly skilled. I came in with an idea, and he took the time to ask the right questions, give thoughtful advice, and really understand what I wanted to achieve. I felt listened to and completely confident in his hands. I absolutely love the result and would 100% recommend him to anyone!",
+      "isVerified": true,
+      "venueReply": "We appreciate your wonderful feedback! Marcus is thrilled to hear you loved your haircut. See you next time!",
+      "status": "approved",
+      "createdAt": "2026-02-02T13:03:54.466Z",
+      "updatedAt": "2026-02-06T13:04:02.282Z",
+      "__v": 0
+    },
+    {
+      "_id": "6985e6c22e18500f7b63885d",
+      "customerName": "Dani",
+      "serviceName": "Beard Trim & Shape",
+      "barberName": "Alex",
+      "rating": 5,
+      "comment": "Alex is great - very professional and friendly. The beard trim was perfect.",
+      "isVerified": true,
+      "venueReply": "Thanks for choosing us, Dani! We are glad Alex took great care of you.",
+      "status": "approved",
+      "createdAt": "2026-02-01T13:03:54.467Z",
+      "updatedAt": "2026-02-06T13:04:02.282Z",
+      "__v": 0
+    },
+    {
+      "_id": "6985e6c22e18500f7b63885e",
+      "customerName": "Rhian",
+      "serviceName": "Premium Cut & Style",
+      "barberName": "James",
+      "rating": 5,
+      "comment": "Fantastic experience with James. He listened well to what I wanted and gave helpful advice and tips for future visits to maintain the style I want!",
+      "isVerified": true,
+      "venueReply": null,
+      "status": "approved",
+      "createdAt": "2026-01-31T13:03:54.467Z",
+      "updatedAt": "2026-02-06T13:04:02.283Z",
+      "__v": 0
+    },
+    {
+      "_id": "6985e6c22e18500f7b63885f",
+      "customerName": "Tom Williams",
+      "serviceName": "Hot Towel Shave",
+      "barberName": "Alex",
+      "rating": 5,
+      "comment": "Best hot towel shave I have ever had. Alex is a true professional and made me feel completely relaxed. The attention to detail was incredible.",
+      "isVerified": true,
+      "venueReply": "Thank you Tom! We are delighted you enjoyed the experience. Come back soon!",
+      "status": "approved",
+      "createdAt": "2026-01-30T13:03:54.467Z",
+      "updatedAt": "2026-02-06T13:04:02.283Z",
+      "__v": 0
+    },
+    {
+      "_id": "6985e6c22e18500f7b638860",
+      "customerName": "Michael Chen",
+      "serviceName": "Men's Haircut & Styling",
+      "barberName": "Marcus",
+      "rating": 5,
+      "comment": "Marcus gave me exactly what I asked for. Clean fade, perfect lineup. Great atmosphere and professional service throughout.",
+      "isVerified": true,
+      "venueReply": null,
+      "status": "approved",
+      "createdAt": "2026-01-29T13:03:54.467Z",
+      "updatedAt": "2026-02-06T13:04:02.283Z",
+      "__v": 0
+    },
+    {
+      "_id": "6985e6c22e18500f7b638861",
+      "customerName": "David Brown",
+      "serviceName": "Premium Cut & Style",
+      "barberName": "James",
+      "rating": 5,
+      "comment": "James is my go-to barber now. Always consistent, always professional. He knows exactly how I like my hair and delivers every time.",
+      "isVerified": true,
+      "venueReply": "We appreciate your loyalty, David! James is happy to be your regular barber.",
+      "status": "approved",
+      "createdAt": "2026-01-27T13:03:54.467Z",
+      "updatedAt": "2026-02-06T13:04:02.284Z",
+      "__v": 0
+    },
+    {
+      "_id": "6985e6c22e18500f7b638862",
+      "customerName": "Sam Parker",
+      "serviceName": "Beard Trim & Shape",
+      "barberName": "Alex",
+      "rating": 5,
+      "comment": "Alex transformed my beard. He really knows what he is doing and gave me great advice on maintaining it at home. Will definitely be back.",
+      "isVerified": true,
+      "venueReply": null,
+      "status": "approved",
+      "createdAt": "2026-01-25T13:03:54.467Z",
+      "updatedAt": "2026-02-06T13:04:02.285Z",
+      "__v": 0
+    },
+    {
+      "_id": "6985e6c22e18500f7b638863",
+      "customerName": "Ryan Thompson",
+      "serviceName": "Men's Haircut & Styling",
+      "barberName": "Marcus",
+      "rating": 5,
+      "comment": "Great cut, great service. Marcus took his time and made sure everything was perfect. The whole team is friendly and professional.",
+      "isVerified": true,
+      "venueReply": "Thanks Ryan! We are proud of our team and glad you had a great experience.",
+      "status": "approved",
+      "createdAt": "2026-01-23T13:03:54.467Z",
+      "updatedAt": "2026-02-06T13:04:02.285Z",
+      "__v": 0
+    }
+  ],
+  "products": [
+    {
+      "_id": "698365fe0687c9bf2441888d",
+      "title": "Shaving Bowl Shaving Bowl",
+      "description": "A shaving bowl is an essential grooming accessory designed to create a rich, smooth lather for a comfortable shaving experience. Crafted from durable, high-quality materials, it helps evenly mix shaving cream or soap, ensuring a thick and creamy foam. Its ergonomic shape provides a comfortable grip and prevents spills, making it ideal for both home and professional barbershop use. Perfect for traditional wet shaving, a shaving bowl enhances precision, comfort, and overall grooming quality.",
+      "price": 15,
+      "imageUrl": "https://res.cloudinary.com/dftxusqcn/image/upload/v1770271752/barber-products/g4q05qy6hze89awhgncy.png",
+      "category": "Hairdressing supplies",
+      "stock": 1000,
+      "isActive": true,
+      "createdAt": "2026-02-04T15:30:06.295Z",
+      "updatedAt": "2026-02-05T06:09:14.979Z",
+      "__v": 0
+    },
+    {
+      "_id": "6984348d3b5d40849237dac6",
+      "title": "BabyblissPro Gold Skeleton Outliner",
+      "description": "The BabylissPRO Gold Skeleton Outliner is a high-performance professional trimmer designed for sharp lines, detailed edging, and precise outlining. Featuring a powerful motor and an exposed 360° skeleton blade, it provides maximum visibility and control for flawless results. The gold-finish metal housing adds durability and a premium look, while its ergonomic design ensures comfort during extended use. Ideal for barbers and stylists, this outliner delivers accuracy, speed, and professional-grade performance every time.",
+      "price": 164.99,
+      "imageUrl": "https://res.cloudinary.com/dftxusqcn/image/upload/v1770271884/barber-products/caz7x2aqzyjih3ngcj8f.png",
+      "category": "Hairdressing supplies",
+      "stock": 1000,
+      "isActive": true,
+      "createdAt": "2026-02-05T06:11:25.518Z",
+      "updatedAt": "2026-02-05T06:11:25.519Z",
+      "__v": 0
+    },
+    {
+      "_id": "698434d33b5d40849237db2c",
+      "title": "BabyblissPro Gold VibeFx",
+      "description": "The BabylissPRO Gold VibeFX is a powerful, professional massaging tool designed to enhance comfort and relaxation during grooming services. Equipped with high-speed vibration technology, it helps reduce muscle tension and improves client comfort during haircuts, shaves, and facial treatments. Its sleek all-metal gold housing offers durability and a premium feel, while the cordless design ensures ease of use and flexibility. Ideal for barbers and stylists, the Gold VibeFX elevates the grooming experience with performance and luxury combined.",
+      "price": 189.98,
+      "imageUrl": "https://res.cloudinary.com/dftxusqcn/image/upload/v1770271954/barber-products/r4vuxzcb23zxryvckaky.png",
+      "category": "Beards",
+      "stock": 1000,
+      "isActive": true,
+      "createdAt": "2026-02-05T06:12:35.867Z",
+      "updatedAt": "2026-02-05T06:18:40.386Z",
+      "__v": 0
+    },
+    {
+      "_id": "698435093b5d40849237db71",
+      "title": "Skeleton FX Black",
+      "description": "The SkeletonFX Black is a professional-grade outliner engineered for sharp detailing, clean edges, and precise line work. Featuring a high-performance motor and an exposed 360° skeleton blade, it offers maximum visibility for ultimate accuracy and control. The sleek black metal housing delivers durability with a modern, stylish finish, while its ergonomic design ensures comfort during extended use. Ideal for barbers and stylists, the SkeletonFX Black provides powerful performance and flawless results every time.",
+      "price": 168.77,
+      "imageUrl": "https://res.cloudinary.com/dftxusqcn/image/upload/v1770272008/barber-products/khdb71w73ez40lqpjxbf.png",
+      "category": "Beards",
+      "stock": 1000,
+      "isActive": true,
+      "createdAt": "2026-02-05T06:13:29.877Z",
+      "updatedAt": "2026-02-05T06:13:40.621Z",
+      "__v": 0
+    },
+    {
+      "_id": "698436763668768ab04c798b",
+      "title": "Babyliss Gold Shaver",
+      "description": "The Babyliss Gold Shaver is a high-performance professional grooming tool designed for ultra-smooth, close shaving. Equipped with powerful motor technology and precision-engineered foil blades, it delivers a clean, irritation-free finish. The durable all-metal gold housing offers a premium look and long-lasting performance, while its ergonomic design ensures comfort and control during use. Ideal for barbers and stylists, the Babyliss Gold Shaver is perfect for finishing fades, clean shaves, and detailed grooming with flawless results.",
+      "price": 129.99,
+      "imageUrl": "https://res.cloudinary.com/dftxusqcn/image/upload/v1770272373/barber-products/znwohl7msb2v1clgyilg.png",
+      "category": "Beards",
+      "stock": 0,
+      "isActive": true,
+      "createdAt": "2026-02-05T06:19:34.535Z",
+      "updatedAt": "2026-02-05T06:19:34.536Z",
+      "__v": 0
+    },
+    {
+      "_id": "698436b43668768ab04c79db",
+      "title": "2IN1 Hair Styler Modelling Comb & Beard straightener",
+      "description": "The 2-in-1 Hair Styler Modelling Comb & Beard Straightener is a versatile grooming tool designed for effortless styling and precision control. Combining a heated straightening comb with beard-taming technology, it smooths, shapes, and styles hair and facial hair with ease. Its advanced heat distribution ensures safe, even styling while reducing frizz and damage. Lightweight, ergonomic, and easy to use, this tool is ideal for daily grooming, offering salon-quality results at home or on the go.",
+      "price": 89.99,
+      "imageUrl": "https://res.cloudinary.com/dftxusqcn/image/upload/v1770272434/barber-products/n22igkjrhaertway2pcc.png",
+      "category": "Hair care",
+      "stock": 1000,
+      "isActive": true,
+      "createdAt": "2026-02-05T06:20:36.524Z",
+      "updatedAt": "2026-02-06T08:30:41.247Z",
+      "__v": 0
+    },
+    {
+      "_id": "698436ec3668768ab04c7a2b",
+      "title": "Babyliss Nose and Ear Trimmer",
+      "description": "The Babyliss Nose and Ear Trimmer is a compact and efficient grooming tool designed for safe and precise trimming of unwanted nose and ear hair. Featuring a gentle yet powerful cutting system, it ensures a smooth, irritation-free experience. Its ergonomic design allows easy handling and control, while the durable blades provide long-lasting performance. Ideal for everyday grooming, this trimmer offers quick, hygienic, and hassle-free maintenance at home or on the go.",
+      "price": 19.99,
+      "imageUrl": "https://res.cloudinary.com/dftxusqcn/image/upload/v1770272490/barber-products/yhuxbtyroyhoarowuymj.png",
+      "category": "Face and body",
+      "stock": 1000,
+      "isActive": true,
+      "createdAt": "2026-02-05T06:21:32.105Z",
+      "updatedAt": "2026-02-05T06:21:32.106Z",
+      "__v": 0
+    },
+    {
+      "_id": "6984371e3668768ab04c7a70",
+      "title": "Pro Lather Hot Lather Machine W/Bonus Tray & W/ 2 Shave Cream",
+      "description": "Pro Lather Hot Lather Machine (with Bonus Tray & 2 Shave Creams)\nThe Pro Lather Hot Lather Machine is a professional grooming essential designed to deliver warm, rich lather for a smooth and comfortable shaving experience. It heats shaving cream evenly, providing consistent temperature and luxurious foam for enhanced skin comfort. The included bonus tray ensures neat and organized use, while the two shave creams add extra value for immediate operation. Ideal for barbershops and home grooming, this machine combines efficiency, convenience, and professional-grade performance.",
+      "price": 119.99,
+      "imageUrl": "https://res.cloudinary.com/dftxusqcn/image/upload/v1770272540/barber-products/m8gqwbn2falqplbsshql.png",
+      "category": "Beards",
+      "stock": 1000,
+      "isActive": true,
+      "createdAt": "2026-02-05T06:22:22.565Z",
+      "updatedAt": "2026-02-05T06:22:22.565Z",
+      "__v": 0
+    }
+  ],
+  "orders": [],
+  "salons": [],
+  "giftcards": []
+}
