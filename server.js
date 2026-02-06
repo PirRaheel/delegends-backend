@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
-const mongoose = require('mongoose');
+const { db } = require('./config/firebase');
 
 dotenv.config();
 
@@ -184,38 +184,6 @@ app.post('/api/bookings/webhook',
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ limit: '50mb', extended: true }));
 
-// MongoDB Connection with connection pooling
-const connectDB = async () => {
-  try {
-    if (!process.env.MONGODB_URI) {
-      console.log('⚠️  MONGODB_URI not set in environment variables');
-      return;
-    }
-    await mongoose.connect(process.env.MONGODB_URI, {
-      serverSelectionTimeoutMS: 5000,
-      maxPoolSize: 10,
-      minPoolSize: 2,
-      socketTimeoutMS: 45000,
-      family: 4
-    });
-    console.log('✅ MongoDB Connected successfully!');
-  } catch (error) {
-    console.log('❌ MongoDB connection failed:', error.message);
-    process.exit(1);
-  }
-};
-
-connectDB();
-
-// Handle MongoDB connection events
-mongoose.connection.on('error', (err) => {
-  console.error('MongoDB connection error:', err);
-});
-
-mongoose.connection.on('disconnected', () => {
-  console.log('MongoDB disconnected');
-});
-
 // Test Cloudinary configuration on startup
 try {
   const { cloudinary } = require('./config/cloudinary');
@@ -226,6 +194,8 @@ try {
 } catch (err) {
   console.error('❌ Error loading Cloudinary config:', err.message);
 }
+
+console.log('✅ Firebase Firestore initialized');
 
 // Routes
 app.use('/api/auth', require('./routes/auth'));
