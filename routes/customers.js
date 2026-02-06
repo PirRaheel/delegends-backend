@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const User = require('../models/User');
-const Booking = require('../models/Booking');
+const User = require('../models/UserFirestore');
+const Booking = require('../models/BookingFirestore');
 const { authMiddleware } = require('../middleware/auth');
 
 // Get all customers who have booked appointments

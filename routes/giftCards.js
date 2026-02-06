@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const GiftCard = require('../models/GiftCard');
+const GiftCard = require('../models/GiftCardFirestore');
 const { authMiddleware, adminMiddleware } = require('../middleware/auth');
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 

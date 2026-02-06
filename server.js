@@ -38,7 +38,7 @@ app.post('/api/orders/webhook',
   express.raw({ type: 'application/json' }),
   async (req, res) => {
     const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
-    const Order = require('./models/Order');
+    const Order = require('./models/OrderFirestore');
     const sig = req.headers['stripe-signature'];
     let event;
 
@@ -79,8 +79,8 @@ app.post('/api/bookings/webhook',
   express.raw({ type: 'application/json' }),
   async (req, res) => {
     const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
-    const Booking = require('./models/Booking');
-    const GuestCustomer = require('./models/GuestCustomer');
+    const Booking = require('./models/BookingFirestore');
+    const GuestCustomer = require('./models/GuestCustomerFirestore');
     const sig = req.headers['stripe-signature'];
     let event;
 

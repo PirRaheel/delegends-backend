@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Salon = require('../models/Salon');
+const Salon = require('../models/SalonFirestore');
 const { authMiddleware, adminMiddleware } = require('../middleware/auth');
 
 // Get all salons

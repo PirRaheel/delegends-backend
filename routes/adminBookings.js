@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
-const Booking = require('../models/Booking');
-const GuestCustomer = require('../models/GuestCustomer');
+const Booking = require('../models/BookingFirestore');
+const GuestCustomer = require('../models/GuestCustomerFirestore');
 const { authMiddleware, adminMiddleware, adminOrReceptionistMiddleware } = require('../middleware/auth');
 
 /**

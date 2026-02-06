@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const JobPosting = require('../models/JobPosting');
-const JobApplication = require('../models/JobApplication');
+const JobPosting = require('../models/JobPostingFirestore');
+const JobApplication = require('../models/JobApplicationFirestore');
 const { authMiddleware, adminMiddleware } = require('../middleware/auth');
 
 /**

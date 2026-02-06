@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const Review = require('../models/Review');
-const Booking = require('../models/Booking');
+const Review = require('../models/ReviewFirestore');
+const Booking = require('../models/BookingFirestore');
 const { authMiddleware, adminMiddleware } = require('../middleware/auth');
 
 // Get all reviews (admin only)

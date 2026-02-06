@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
-const Booking = require('../models/Booking');
-const User = require('../models/User');
+const Booking = require('../models/BookingFirestore');
+const User = require('../models/UserFirestore');
 const { authMiddleware, adminMiddleware } = require('../middleware/auth');
 
 // Get all bookings (admin only)
@@ -260,7 +260,7 @@ router.get('/stats/dashboard', authMiddleware, adminMiddleware, async (req, res)
     const completedBookings = await Booking.countDocuments({ status: 'completed' });
 
     // Calculate total staff from Barber profiles (visible team members)
-    const Barber = require('../models/Barber');
+    const Barber = require('../models/BarberFirestore');
     const totalStaff = await Barber.countDocuments();
 
     // Calculate total revenue from completed bookings

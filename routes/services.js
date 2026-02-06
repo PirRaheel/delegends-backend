@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Service = require('../models/Service');
+const Service = require('../models/ServiceFirestore');
 const { authMiddleware, adminMiddleware } = require('../middleware/auth');
 
 // Get all services (public)

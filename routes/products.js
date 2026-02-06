@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Product = require('../models/Product');
+const Product = require('../models/ProductFirestore');
 const { authMiddleware, adminMiddleware } = require('../middleware/auth');
 const { upload } = require('../config/cloudinary');
 

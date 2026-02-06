@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
-const Order = require('../models/Order');
-const Product = require('../models/Product');
+const Order = require('../models/OrderFirestore');
+const Product = require('../models/ProductFirestore');
 const { authMiddleware } = require('../middleware/auth');
 
 // Create Stripe Checkout Session (no auth required for guest checkout)

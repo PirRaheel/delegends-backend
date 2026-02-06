@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Barber = require('../models/Barber');
+const Barber = require('../models/BarberFirestore');
 const { authMiddleware, adminMiddleware } = require('../middleware/auth');
 const { uploadBarberImage } = require('../config/cloudinary');
 
