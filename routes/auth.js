@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const User = require('../models/User');
+const User = require('../models/UserFirestore');
 const { authMiddleware, adminMiddleware } = require('../middleware/auth');
 
 
@@ -16,18 +16,17 @@ router.post('/register', async (req, res) => {
     }
 
     const hashedPassword = await bcrypt.hash(password, 10);
-    const user = new User({
+    const user = await User.create({
       name,
       email,
       password: hashedPassword,
       phone,
       role: role || 'customer',
+      createdAt: new Date()
     });
 
-    await user.save();
-
     const token = jwt.sign(
-      { id: user._id, email: user.email, role: user.role },
+      { id: user.id, email: user.email, role: user.role },
       process.env.JWT_SECRET,
       { expiresIn: process.env.JWT_EXPIRE }
     );
@@ -36,7 +35,7 @@ router.post('/register', async (req, res) => {
       message: 'User registered successfully ',
       token,
       user: {
-        id: user._id,
+        id: user.id,
         name: user.name,
         email: user.email,
         role: user.role,
@@ -63,7 +62,7 @@ router.post('/login', async (req, res) => {
     }
 
     const token = jwt.sign(
-      { id: user._id, email: user.email, role: user.role },
+      { id: user.id, email: user.email, role: user.role },
       process.env.JWT_SECRET,
       { expiresIn: process.env.JWT_EXPIRE }
     );
@@ -72,7 +71,7 @@ router.post('/login', async (req, res) => {
       message: 'Login successful',
       token,
       user: {
-        id: user._id,
+        id: user.id,
         name: user.name,
         email: user.email,
         role: user.role,
@@ -99,20 +98,19 @@ router.post('/create-employee', authMiddleware, adminMiddleware, async (req, res
     }
 
     const hashedPassword = await bcrypt.hash(password, 10);
-    const user = new User({
+    const user = await User.create({
       name,
       email,
       password: hashedPassword,
       phone,
       role,
+      createdAt: new Date()
     });
-
-    await user.save();
 
     res.status(201).json({
       message: `${role.charAt(0).toUpperCase() + role.slice(1)} account created successfully`,
       user: {
-        id: user._id,
+        id: user.id,
         name: user.name,
         email: user.email,
         phone: user.phone,
@@ -138,35 +136,35 @@ router.put('/user/:id', authMiddleware, async (req, res) => {
       return res.status(404).json({ message: 'User not found' });
     }
 
+    const updates = {};
+    if (name) updates.name = name;
+    if (phone !== undefined) updates.phone = phone;
+    if (email) updates.email = email;
+    if (gender) updates.gender = gender;
+    if (birthMonth !== undefined) updates.birthMonth = birthMonth;
+    if (birthDay !== undefined) updates.birthDay = birthDay;
+    if (birthYear !== undefined) updates.birthYear = birthYear;
+    if (marketingConsent !== undefined) updates.marketingConsent = marketingConsent;
+    if (prepaymentRequired !== undefined) updates.prepaymentRequired = prepaymentRequired;
+    if (note !== undefined) updates.note = note;
     
-    if (name) user.name = name;
-    if (phone !== undefined) user.phone = phone;
-    if (email) user.email = email;
-    if (gender) user.gender = gender;
-    if (birthMonth !== undefined) user.birthMonth = birthMonth;
-    if (birthDay !== undefined) user.birthDay = birthDay;
-    if (birthYear !== undefined) user.birthYear = birthYear;
-    if (marketingConsent !== undefined) user.marketingConsent = marketingConsent;
-    if (prepaymentRequired !== undefined) user.prepaymentRequired = prepaymentRequired;
-    if (note !== undefined) user.note = note;
-    
-    await user.save();
+    const updatedUser = await User.update(id, updates);
 
     res.json({
       message: 'User updated successfully',
       user: {
-        id: user._id,
-        name: user.name,
-        email: user.email,
-        phone: user.phone,
-        gender: user.gender,
-        birthMonth: user.birthMonth,
-        birthDay: user.birthDay,
-        birthYear: user.birthYear,
-        marketingConsent: user.marketingConsent,
-        prepaymentRequired: user.prepaymentRequired,
-        note: user.note,
-        role: user.role,
+        id: updatedUser.id,
+        name: updatedUser.name,
+        email: updatedUser.email,
+        phone: updatedUser.phone,
+        gender: updatedUser.gender,
+        birthMonth: updatedUser.birthMonth,
+        birthDay: updatedUser.birthDay,
+        birthYear: updatedUser.birthYear,
+        marketingConsent: updatedUser.marketingConsent,
+        prepaymentRequired: updatedUser.prepaymentRequired,
+        note: updatedUser.note,
+        role: updatedUser.role,
       },
     });
   } catch (error) {
@@ -190,16 +188,15 @@ router.put('/user-by-email/:email', authMiddleware, adminMiddleware, async (req,
       return res.status(404).json({ message: 'User not found with this email' });
     }
 
-    user.role = role;
-    await user.save();
+    const updatedUser = await User.update(user.id, { role });
 
     res.json({
       message: 'User role updated successfully',
       user: {
-        id: user._id,
-        name: user.name,
-        email: user.email,
-        role: user.role,
+        id: updatedUser.id,
+        name: updatedUser.name,
+        email: updatedUser.email,
+        role: updatedUser.role,
       },
     });
   } catch (error) {
