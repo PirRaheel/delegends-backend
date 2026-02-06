@@ -12,8 +12,8 @@ const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:3000',
   'http://localhost:5174',
-  'https://barber-main.vercel.app',
-  'https://treatwell-main.vercel.app',
+  'https://delegends-frontend-two.vercel.app',
+  'https://treatwell-main-chi.vercel.app',
   process.env.FRONTEND_URL,
   process.env.ADMIN_URL
 ].filter(Boolean);
