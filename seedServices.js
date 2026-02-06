@@ -31,7 +31,12 @@ const services = [
 
 const seedServices = async () => {
   try {
-    await mongoose.connect(process.env.MONGODB_URI);
+    await mongoose.connect(process.env.MONGODB_URI, {
+      tls: true,
+      tlsAllowInvalidCertificates: false,
+      serverSelectionTimeoutMS: 10000,
+      family: 4
+    });
     console.log('✅ MongoDB Connected');
 
     // Clear existing services

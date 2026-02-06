@@ -4,12 +4,12 @@ const reviewSchema = new mongoose.Schema({
   booking: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Booking',
-    required: true,
+    required: false,
   },
   user: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
-    required: true,
+    required: false,
   },
   customerName: {
     type: String,
@@ -18,6 +18,10 @@ const reviewSchema = new mongoose.Schema({
   serviceName: {
     type: String,
     required: true,
+  },
+  barberName: {
+    type: String,
+    required: false,
   },
   rating: {
     type: Number,
@@ -29,6 +33,14 @@ const reviewSchema = new mongoose.Schema({
     type: String,
     required: true,
     trim: true,
+  },
+  isVerified: {
+    type: Boolean,
+    default: false,
+  },
+  venueReply: {
+    type: String,
+    default: null,
   },
   status: {
     type: String,
